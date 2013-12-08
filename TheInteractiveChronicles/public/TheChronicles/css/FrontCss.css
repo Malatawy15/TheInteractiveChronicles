@@ -1,0 +1,46 @@
+body{
+	background-color: lightgrey;
+}
+
+#title{
+	text-align: center;
+	font-family: "Old English Text MT";
+	font-size: 48px;
+	padding-bottom: 40px;
+}
+
+.divide_3{
+	-moz-column-count:3; /* Firefox */
+	-webkit-column-count:3; /* Safari and Chrome */
+	column-count:3;
+}
+
+#main_component{
+	padding-top: 30px;
+}
+
+#column1{
+	margin-top: -16px;
+	border-right: solid;
+	border-right-width: 2px;
+	text-align: center;
+}
+
+#column2{
+	border-right: solid;
+	border-right-width: 2px;
+	text-align: center;
+}
+
+#column3{
+	text-align: center;
+}
+
+.title_img{
+	width: 400px;
+	height: 400px;
+}
+
+.code_only{
+	/*display: none;*/
+}
