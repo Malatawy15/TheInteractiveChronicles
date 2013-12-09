@@ -9,6 +9,34 @@ body{
 	padding-bottom: 40px;
 }
 
+#headline{
+	text-align: center;
+}
+
+#main_news{
+	width: 100%;
+	text-align: center;
+}
+
+#news_div{
+	display: inline;
+	text-align: center;
+}
+
+#video_news{
+}
+
+#vid{
+	display: none;
+	/*visibility: hidden;
+	margin-left: -10000px;*/
+}
+
+.img_size{
+	width: 400px;
+	height: 400px;
+}
+
 .divide_3{
 	-moz-column-count:3; /* Firefox */
 	-webkit-column-count:3; /* Safari and Chrome */
