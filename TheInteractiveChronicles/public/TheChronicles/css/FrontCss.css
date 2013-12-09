@@ -1,3 +1,21 @@
+@font-face
+{
+	font-family: Headliner;
+	src: url('/TheChronicles/fonts/Headliner.ttf');
+}
+
+@font-face
+{
+	font-family: TheWorldIsYours;
+	src: url('/TheChronicles/fonts/TheWorldIsYours.ttf');
+}
+
+@font-face
+{
+	font-family: CFMetropolis;
+	src: url('/TheChronicles/fonts/CFMetropolis.ttf');
+}
+
 body{
 	background-color: lightgrey;
 }
@@ -5,12 +23,14 @@ body{
 #title{
 	text-align: center;
 	font-family: "Old English Text MT";
-	font-size: 48px;
+	font-size: 100px;
 	padding-bottom: 40px;
 }
 
 #headline{
 	text-align: center;
+	font-family: Headliner;
+	font-size: 90px;
 }
 
 #main_news{
@@ -57,11 +77,15 @@ body{
 #column2{
 	border-right: solid;
 	border-right-width: 2px;
+	border-left: solid;
+	border-left-width: 2px;
 	text-align: center;
 }
 
 #column3{
 	text-align: center;
+	border-left: solid;
+	border-left-width: 2px;
 }
 
 .title_img{
@@ -71,4 +95,18 @@ body{
 
 .code_only{
 	/*display: none;*/
+}
+
+.news_title{
+	font-family: TheWorldIsYours;
+	font-size: 50px;
+}
+
+.news_sub_title{
+	font-family: CFMetropolis;
+	font-size: 30px;
+}
+
+.padlarge{
+	height: 200px;
 }
