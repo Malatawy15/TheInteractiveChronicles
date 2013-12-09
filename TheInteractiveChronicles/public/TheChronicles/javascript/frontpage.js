@@ -10,7 +10,7 @@ $(document).ready (function() {
 				$post = $(this).find("short_synopsis");
 				$text = $post.text();
 				if($.trim($text)!=''){	
-					$('#loadp').append("<p>"+$text+"</p>");
+					$('#list').append("<li>"+$text+"</li>");
 				}
 			});
 		}
