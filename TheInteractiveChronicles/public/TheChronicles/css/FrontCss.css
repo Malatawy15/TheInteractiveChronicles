@@ -72,6 +72,7 @@ body{
 	border-right: solid;
 	border-right-width: 2px;
 	text-align: center;
+	padding-bottom: 400px;
 }
 
 #column2{
@@ -80,12 +81,14 @@ body{
 	border-left: solid;
 	border-left-width: 2px;
 	text-align: center;
+	padding-bottom: 400px;
 }
 
 #column3{
 	text-align: center;
 	border-left: solid;
 	border-left-width: 2px;
+	padding-bottom: 200px;
 }
 
 .title_img{
